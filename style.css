@@ -10,12 +10,12 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .half-width{
     width: 50%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 
 .orange-color{
@@ -28,11 +28,39 @@ h1{
     background-image: linear-gradient(to left, red , orange);
     padding: 15px 30px;
     border-radius: 30px;
-    margin-top: 20px;
+    display: inline-block;
+    margin: 20px 0;
 }
+
+.submit-btn{
+    color: white;
+    background-image: linear-gradient(to left, red , orange);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
 
 .half-width img{
     width: 80%;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*=========Intro===========*/
+.intro-section{
+    margin-top: 20px;
+}
+
+.intro-section .first-side{
+    margin-top: 120px;
 }
 
 
@@ -46,6 +74,9 @@ h1{
     width: 40%;
 }
 
+.about-me{
+    margin-top: 80px;
+}
 
 /*============Blog=================*/
 .blog h2{
@@ -57,7 +88,7 @@ h1{
 }
 
 .blog-item{
-    width: 30%;
+    width: 33.33%;
     margin: 3%;
     box-shadow: 10px 10px 50px gray;
     border-radius: 15px;
@@ -82,6 +113,36 @@ h1{
 .follow-item h2{
     font-weight: 700px;
 }
+
+/*===========Contact================*/
+.contact{
+    background: url('images/shapes/fifth.jpg') no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    margin-bottom: -1px;
+}
+
+.first-section-input input{
+    padding: 10px 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.second-section-input input{
+    padding: 10px 40px;
+    width: 430px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+textarea {
+    padding: 10px 40px;
+    width: 430px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 60px;
+}
+
 
 /*============Footer=================*/
 footer{
